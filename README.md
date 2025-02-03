@@ -1,6 +1,6 @@
-# OCSF TypeScript Generator
+# OCSF TypeScript Generator v1.0.0
 
-A robust TypeScript code generator for creating strongly-typed interfaces and types from OCSF (Open Cybersecurity Schema Framework) schema definitions.
+TypeScript type definitions generator for OCSF schema.
 
 ## Overview
 
@@ -36,7 +36,7 @@ ocsf-typescript-generator/
 ## Installation
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Usage
@@ -52,10 +52,16 @@ export const config = {
 }
 ```
 
-2. Run the generator:
+2. Run the schema update:
 
 ```bash
-npm run generate
+pnpm run schema:update
+```
+
+You can also generate the types using:
+
+```bash
+pnpm run schema:generate
 ```
 
 ## Generated Output
@@ -104,12 +110,6 @@ export type BaseAsset = {
 2. Implement the generator interface
 3. Register the generator in `src/index.ts`
 
-### Testing
-
-```bash
-npm test
-```
-
 ## Contributing
 
 1. Fork the repository
@@ -124,13 +124,3 @@ npm test
 - Maintain backward compatibility when updating generators
 - Add comprehensive documentation for generated types
 - Include examples for complex type structures
-
-## License
-
-[License details here]
-
-## Related Documentation
-
-- [OCSF Schema Adoption Notes](../../docs/ocsf-schema-adoption-notes.md)
-- [OCSF Schema Implementation](../../docs/ocsf-schema-implementation.md)
-- [OCSF Schema Adoption](../../docs/ocsf-schema-adoption.md)

@@ -4,8 +4,8 @@
   "description": "TypeScript type definitions generator for OCSF schema",
   "type": "module",
   "scripts": {
-    "generate": "tsx src/index.ts",
-    "update-schema": "bash scripts/update-schema.sh"
+    "schema:generate": "tsx src/index.ts",
+    "schema:update": "bash scripts/update-schema.sh"
   },
   "dependencies": {
     "tsx": "^4.19.2",
