@@ -6,9 +6,11 @@ yarn-error.log*
 pnpm-debug.log*
 .pnpm-store/
 
+
 # Project specific
 schema/
-generated/
+generated/objects/*
+generated/types/*
 
 # Environment
 .env
