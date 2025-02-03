@@ -1,0 +1,23 @@
+{
+  "name": "ocsf-types",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for OCSF (Open Cybersecurity Schema Framework)",
+  "types": "index.ts",
+  "files": [
+    "**/*.ts",
+    "!**/*.test.ts"
+  ],
+  "keywords": [
+    "ocsf",
+    "typescript",
+    "types",
+    "cybersecurity",
+    "schema"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newpush/ocsf-typescript-generator.git"
+  }
+}
